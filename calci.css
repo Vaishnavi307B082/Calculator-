@@ -1,0 +1,108 @@
+
+    body 
+    {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        user-select: none;
+        background-color: rgb(208, 243, 243);
+    }
+
+    .container 
+    {   margin-left: 1.8em;
+        background-color: rgb(38, 28, 68);
+        padding: 35px;
+        border-radius: 10px;
+        border:solid 1px black;
+        box-shadow: 13px 13px 20px #cbced1,
+                  -13px -13px 20px #ffffff; 
+        
+    }
+
+    .content 
+    {
+        width: 100%;
+        margin-top: 1.7em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .row button 
+    {
+        width: 70px;
+        height: 40px;
+        font-size: 20px;
+        border: solid 1px black;
+        outline: none;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 10px;
+        transition: .1s;
+        box-shadow: 5px 5px 8px #00000020,
+                   -5px -5px 8px rgb(221, 154, 238);
+    }
+
+    .row button:hover 
+    {
+        box-shadow:  inset 5px 5px 8px rgba(100, 98, 98, 0.1),
+                     inset -5px -5px 8px #fff;
+        background: #fff;
+    }
+
+    .display #screen 
+    {
+        margin-bottom: .5em;
+        width: 350px;
+        height: 70px;
+        font-size: 35px;
+        outline: none;
+        border: solid 1px black;
+        text-align: right;
+        padding-right: .5em;
+        background: #ecf0f3;
+        border-radius: 6px;
+        box-shadow: inset 8px 8px 8px #cbced1,
+                    inset -8px -8px 8px #ffffff;
+    }
+
+    #eval 
+    {
+        background: rgb(77, 196, 77);
+        color: #000;
+        
+    }
+
+    #eval:hover 
+    {
+        box-shadow: inset 5px 5px 8px rgb(66, 212, 66),
+                    inset -5px -5px 8px rgb(67, 219, 67);
+    }
+
+    #ac 
+    {
+        background: rgb(245, 194, 99);
+        color: #000;
+    }
+
+    #ac:hover 
+    {
+        box-shadow: inset 5px 5px 8px rgb(226, 172, 71),
+                    inset -5px -5px 8px rgb(226, 172, 71);
+    }
+
+    #ce 
+    {
+        background: rgb(245, 194, 99);
+        color: #000;
+    }
+
+    #ce:hover 
+    {
+        box-shadow: inset 5px 5px 8px rgb(226, 172, 71),
+                    inset -5px -5px 8px rgb(226, 172, 71);
+    }
